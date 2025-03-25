@@ -1,22 +1,45 @@
-Στεβής Χαράλαμπος-Αντώνιος 
-ΑΜ: 1115201600278
+# Project Details
 
-  Μέσα στον φάκελο περιέχονται τα εξής αρχεία:
-   Session.h : Δηλώσεις συναρτήσεων με ολική απόκρυψη.
-   Session.c : Υλοποιήσεις των συναρτήσεων.
-   main.c : Το κυρίως πρόγραμμα-πελάτης.
-   makefile : Δημιουργεί το εκτελέσιμο main
+**Author**: Stevis Charalampos - Antonios  
+**Student ID**: 1115201600278
 
-  Η εργασία μπορεί να κάνει τα εξής:
-	Υπάρχουν όλες οι δηλώσεις και οι υλοποιήσεις των παρακάτω συναρτήσεων:
-SessionNew,SessionNewTab,SessionTabShow,SessionTabNext,
-SessionTabPrev,SessionTabMoveLeft,SessionTabMoveRight,
-SessionNewOpeningAddress,SessionShowOpeningAddress,
-SessionSiteNext,SessionSitePrev,SessionSiteShow,
-SessionTabClose,SessionClose,SessionNewAddress.
+### Files in the Project:
 
-   Η εργασία δεν μπορει να κάνει τα εξής:
-	Δεν υπάρχει η συνάρτηση μπόνους: SessionOpenNewTab.
-	Η main.c τρέχει αλλά δεν είναι σωστα υλοποιημένη.
+- **Session.h**: Function declarations with complete abstraction.
+- **Session.c**: Function implementations.
+- **main.c**: The main client program.
+- **Makefile**: Builds the executable `main`.
 
-Περιβάλλον υπολοποίησης: PuTTy,υπολογιστες στα εργαστήρια της σχολής.
+### Functionality of the Project:
+
+The project includes the declarations and implementations of the following functions:
+
+- `SessionNew`
+- `SessionNewTab`
+- `SessionTabShow`
+- `SessionTabNext`
+- `SessionTabPrev`
+- `SessionTabMoveLeft`
+- `SessionTabMoveRight`
+- `SessionNewOpeningAddress`
+- `SessionShowOpeningAddress`
+- `SessionSiteNext`
+- `SessionSitePrev`
+- `SessionSiteShow`
+- `SessionTabClose`
+- `SessionClose`
+- `SessionNewAddress`
+
+### Limitations of the Project:
+
+- The bonus function `SessionOpenNewTab` is not implemented.
+- The `main.c` file runs, but it is not properly implemented.
+
+### Development Environment:
+
+- **PuTTY**: Terminal emulator used for accessing the development environment.
+- **Laboratory Computers**: The work was carried out on the university's lab computers.
+
+---
+
+This project is a part of my academic work and demonstrates the implementation of various session management functions.
