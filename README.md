@@ -1,7 +1,6 @@
 # Project Details
 
 **Author**: Stevis Charalampos - Antonios  
-**Student ID**: 1115201600278
 
 ### Files in the Project:
 
